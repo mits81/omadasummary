@@ -1,0 +1,15 @@
+{
+  "name": "omada-event-status",
+  "version": "1.0.0",
+  "description": "Event kit Omada status dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

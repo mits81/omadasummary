@@ -1,0 +1,9 @@
+services:
+  omada-event-status:
+    build: .
+    container_name: omada-event-status
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
